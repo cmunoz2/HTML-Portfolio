@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8" >
+    <title>Submission Form</title>
+    
+    <style>
+        input{
+            width: auto;
+        }
+        input[type=text], input[type=number]{
+            width: 10em;
+            padding: 12px 20px;
+            margin: 3px;
+        }
+        ol{
+            display: block;
+            float: left;
+            text-align: right;
+            margin-left: .5em;
+            padding-right: 15em;
+        }
+        h2{
+            padding-top: 1.5em;
+        }
+        html{
+            font-family: Verdana, sans-serif;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        fieldset{
+            background: #ADD8E6;
+        }
+        p, li{
+            color: #008080;
+        }
+        legend, textarea{
+            color: #800000;
+            font-size: 17px;
+        }
+        input[type=submit], input[type=reset]{
+            padding: 1em;
+            margin: 1.5em 3em .5em 3em;
+            border-radius: .5em;
+        }
+        input[type=submit]{
+            color: #C00;
+        }
+    </style>
+</head>
+    
+<body>
+<h1>Lets work out your meal plan!</h1>
+    
+    <p>Tell us a bit about yourself, your diet, and goals.</p>
+    <form action="" method="">
+        
+        <fieldset>
+    <legend>Basic information</legend>
+
+<ol>
+    <li><label for="form-name">First Name:</label> <input type="text" name="username" id="form-name"></li>
+    <li><label for="form-name2">Last Name:</label> <input type="text" name="username" id="form-name2"></li>
+    <li><label for="form-email">Email:</label> <input type="text" name="username" id="form-email"></li>
+    <li><label for="form-phone">Phone Number:</label> <input type="number" name="username" id="form-phone"></li>
+            </ol><br>
+            <br><p>Tell us about your diet in the past:</p> 
+    <textarea name="text_area" rows="6" cols="70" maxlength="300" placeholder="300 Characters or less."></textarea>
+<p>Current Diet <em>(Select one)</em>
+    <select name="diet" size="1">
+    <option>Omnivore</option>
+    <option>Vegitarian</option>
+    <option>Vegan</option>
+    <option>Gluten-free</option>
+    <option>Pescetarian</option>
+    </select></p>
+    </fieldset>
+        
+        
+<h2>The results</h2>
+        
+<fieldset>
+    
+    
+<p>What do you hope to gain? <em>(Multiple is okay)</em></p>
+  <ul>
+        <li><label><input type="checkbox" name="goals" value="weight">Lose weight</label></li>
+        <li><label><input type="checkbox" name="goals" value="muscle">Build muscle</label></li>
+        <li><label><input type="checkbox" name="goals" value="habits">Create healthy habits</label></li>
+        <li><label><input type="checkbox" name="goals" value="shape">Get back into shape</label></li>
+  </ul>
+<fieldset>
+    <p>Comments:</p>
+    <textarea name="comments" rows="5" cols="70" maxlength="600" placeholder="Any other comments about your body, questions, or concerns? We will get back to you."></textarea>
+    </fieldset>
+ 
+</fieldset>
+        
+        
+    
+        <input type="submit" value="Send your message" ><input type="reset">
+    </form>
+</body>
+    
+</html>

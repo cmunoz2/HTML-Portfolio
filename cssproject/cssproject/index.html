@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Challenge</title>
+<style>
+    
+body{font-family: sans-serif, Trebuchet;
+    font-size: 17px;
+    line-height: 1.4em;
+    } 
+h1, h2 {
+    font-family: serif, Georgia;
+    }   
+li{
+    color: #800000;}    
+strong{
+    color: #ff0000;
+    }       
+h1{
+    color: #228b22;
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: -2px 3px 5px;
+    }  
+h2{
+    color: #556b2f;
+    font-size: 2em;
+     margin-bottom: 0px;
+    }
+p{
+    color: #808080;
+    line-height: 1.75em
+    }
+blockquote{
+    font-style: italic;
+    color: #0000ff;
+    }
+footer{
+    font-size: 13px;
+    background-image: linear-gradient(to bottom,#fffafa, #ffb6c1)
+    }
+    h2 + p{text-indent: 50px;}
+    p.message{font-style: italic;}
+/* PART TWO */
+    body{background-color: #ffdead;
+        margin: auto;
+        width: 85%;
+    }
+    #resources p{
+        letter-spacing: 3px;
+        border: 10px solid;
+        color: #6495ed;
+        background-color: #B22222; opacity: .75;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+        a:link{color: #ba55d3;}   
+        a:visited{color: #8a2be2;}
+        a:focus{color: #ffc0cb;}
+        a:hover{color: #ffc0cb;}
+        a:active{color: #fffafa;}
+    abbr{text-underline-position: below;}    
+    }
+    li{margin-bottom: 8px;
+    }
+    header{
+        background-image: url( /* insert photo */ );
+        background-repeat: no-repeat;
+    }
+    
+    </style>
+</head>
+
+    
+    
+    <body>
+<header>
+  <h1>CSS Challenge</h1>
+</header>
+<p>In this project you will start off with some ready-made <abbr title="Hypertext Markup Language">HTML</abbr>, and write some <abbr title="Cascading Style Sheets">CSS</abbr> to solve the problems set out in the  questions below. </p>
+<p>Grab the <em>prepared</em> HTML file and follow the project instructions to set up your files for this project. Ready to get started? Here you go.</p>
+<blockquote>
+  <p>&#8220;I hear and I forget. I see and I remember. I do and I understand.&#8221;</p>
+  <footer>
+    <p>&#8212; <cite>Old Chinese Proverb</cite></p>
+  </footer>
+</blockquote>
+<h2>Part 1 Tasks</h2>
+<p>The numbered items below are the tasks you need to complete in the first part of this project. These are simple exercises designed to test your knowledge of common CSS selectors and text related properties. You will need to target specified elements with an assortment of selectors: element type selectors, grouped selectors,  contextual selectors (descendant, child, and adjacent sibling selectors), class selectors, and id selectors.</p>
+<p class="message">Each one of these should take you only a minute or so to apply, once you have  your style sheet set up. If you get stuck, refer back to <strong>chapters 11 &amp; 12</strong> in your book.</p>
+<ol>
+  <li>Write a rule that will globally apply an appropriate sans-serif font stack default for every element on the page, and globally set the default base font size and spacing between lines for all child elements. </li>
+  <li>Override the previous font setting just for  the headings—write a rule that will make all heading levels 1 and 2 use an appropriate serif font stack of your choice.</li>
+  <li>Select an appropriate color scheme for this site; two or three colors should be sufficient. Write a rule to apply a relative font size (other than default) and appropriate text color only for the heading 1 element.</li>
+  <li>Write a rule to apply a relative font size  (other than default) and appropriate text color for all heading 2 elements. Just be sure that headings are larger than paragraphs, and heading 2 elements are smaller than heading 1. </li>
+  <li>Write a rule to apply an appropriate text color and increase the spacing between lines for all paragraph elements.</li>
+  <li>Write a rule to apply italic and appropriate text color   just for the quotation text (should not apply to cited source).</li>
+  <li>Write a rule to apply a relative font size (smaller than default) and appropriate text color only to the text in  the page <strong>footer</strong>.</li>
+  <li>Write a rule to apply an appropriate Web font (display category) for only the heading 1 element, center align it, and apply decorative properties of your choice (letter-spacing, text-shadow, text-transform but not text-decoration).</li>
+  <li>Write a rule to indent the first line of each paragraph that directly follows a level 2 heading.</li>
+  <li>Write a rule to apply special emphasis to all text elements that belong to the <em>message</em> class. The properties are your choice.</li>
+</ol>
+<h2>Part 2 Tasks</h2>
+<p>The CSS Challenge continues with exercises to test your knowledge of working with colors, backgrounds, and element boxes. The numbered items below are the tasks you need to complete in the second part of this project.</p>
+<p class="message">If you get stuck, refer back to <strong>chapters 13 &amp; 14</strong> in your book.</p>
+<ol>
+  <li>Write a rule to set the background color of the page using either RGB or hexadecimal color values, set the page width to less than 100%, and set the page margins to auto.</li>
+  <li>Update  all color properties with color names to  use RGB or hexadecimal values in all existing style rules.</li>
+  <li>Write a rule to apply visual interest to all elements that belong to the <em>resources</em> id (<strong>div</strong> element). Set a background color (use RGB or hexadecimal value),  appropriate width, apply appropriate padding and margins, and a border (your choice of color,  style, width, and sides). If appropriate visually for your design, you may apply rounded  borders and/or apply a drop shadow.</li>
+  <li>    Write rules for the five link states so they are a different color than the rest of the text, and when you mouse over them, the underline either appears or disappears. The styles for the link and hover states should be visually different, and remember that order matters.  </li>
+  <li>Write a rule to apply a bottom border (your choice of style, width, and color) just to the <strong>abbr</strong> elements to style them consistently in all browsers.</li>
+  <li>To keep the level 2 headings closer to the paragraph that follows it and farther away from the paragraph that precedes it, write a rule to set bottom margin of level 2 headings to zero, and write a rule to set top margin of each paragraph that directly follows a level 2 heading to zero.</li>
+  <li>To increase the space between the list item elements, write a rule to add bottom margin to the list items.</li>
+  <li>Write a rule to apply an appropriate background image  to the page <strong>header</strong> element. Remember that  header element height is determined by height of child elements inside the header. Increasing the font size and/or top and bottom padding in  h1 element rule will increase the height of the header, exposing more area of background image.</li>
+  <li>Write a rule to apply a background  gradient to the page <strong>footer</strong> element. Gradient should not apply to footer inside blockquote element. If necessary, write another rule to set appropriate text color for the paragraph text inside the page footer.</li>
+  <li>Modify all the style rules to use shorthand wherever appropriate.</li>
+</ol>
+<div id="resources">
+  <h2>Project Resources</h2>
+  <p>Besides your text book and the resources listed in Units 5 and 6, here are some additional resources to help you accomplish the tasks.</p>
+  <ul>
+    <li><a href="http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/" title="Better CSS Font Stacks">Better CSS Font Stacks</a> (with downloadable PDF)</li>
+    <li>For help with color selection, check <a href="http://learningwebdesign.com/colornames.html" title="CSS3 Color Names">CSS3 Color Names</a>.</li>
+    <li>For help on using CSS properties, check the <a href="http://reference.sitepoint.com/css" title="Sitepoint CSS Reference">Sitepoint CSS Reference</a>.</li>
+    <li>Use <a href="http://www.google.com/webfonts/" title="Google Web Fonts">Google Web Fonts</a> to find appropriate web fonts.</li>
+    <li>Validate your CSS with <a href="http://jigsaw.w3.org/css-validator/" title="W3C CSS Validator">W3C CSS Validator</a> or use Web Developer toolbar in Firefox (Choose <strong>Tools &gt; Validate Local CSS</strong>).</li>
+    <li><a href="http://www.colorzilla.com/gradient-editor/" title="Ultimate CSS Gradient Generator">Ultimate CSS Gradient Generator</a> from Colorzilla</li>
+  </ul>
+</div>
+<footer>
+  <p>Site design copyright &#169; 2018 Cesar Munoz. All rights reserved.</p>
+</footer>
+</body>
+</html>

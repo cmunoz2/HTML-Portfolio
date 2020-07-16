@@ -1,0 +1,128 @@
+/* style.css */
+
+html{
+    font-family: sans-serif, Trebuchet;
+    margin: 12px 0;
+padding: 20px;
+    background-color: floralwhite;
+}
+.whole-thing{
+    float: right;
+        background-color: #eaeaed;
+   cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+    
+}
+.card{
+    height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover{
+    transform: rotateY(180deg)
+}
+.card .front{
+    
+    line-height: 140px;
+    backface-visibility: hidden;
+     color: #0087cc;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card .back{
+    backface-visibility: hidden;
+    line-height: 80px;
+    color: #0087cc;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+
+.thing2{
+    float: inherit;
+    cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+    margin: 10px;
+    
+}
+.card2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+.card2:hover{
+    transform: rotateY(180deg);
+}
+.card2 .onea{
+      backface-visibility: hidden;
+  border-radius: px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card2 .oneb{
+     line-height: 80px;
+    color: #0087cc;
+    text-align: center;
+    line-height: 150px;
+    transform: rotateY(180deg);
+    background-color: #eaeaed;
+}
+
+
+
+
+.thing3{
+    float: inherit;
+    cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+    margin: 10px;
+}
+.card3{
+     height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 3s ease;
+  width: 100%;
+    background-color: antiquewhite;
+}
+.card3:hover{
+       transform: rotateY(180deg)
+
+}
+.card3 .omg{
+    line-height: 80px;
+    backface-visibility: hidden;
+     color: #0087cc;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card3 .omg2{
+    backface-visibility: hidden;
+    line-height: 80px;
+    color: #0087cc;
+    text-align: center;
+    transform: rotateY(180deg);
+}
